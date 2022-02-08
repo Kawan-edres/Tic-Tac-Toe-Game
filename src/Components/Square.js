@@ -4,7 +4,7 @@ const Square = ({val,chooseSquare}) => {
   return (
   <div onClick={chooseSquare}
    className='flex-[33%] border border-black h-[183px] cursor-pointer
-    text-[40px] text-black border-b-0 flex justify-center items-center
+    text-[40px] text-amber-100  border-b-0 flex justify-center items-center
     active:bg-black/5
    
    '> 

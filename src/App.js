@@ -84,9 +84,9 @@ function App() {
 
   }
   return (
-    <div className="w-full h-full flex justify-center items-center">
-      <div className="h-[35rem] w-[35rem] bg-black border-2 border-black flex flex-col">
-        <div className="row">
+    <div className="w-full h-screen  flex justify-center items-center">
+      <div className="h-[35rem] w-[35rem] bg-teal-500 border-2 border-black flex flex-col">
+        <div className="flex-[33%] flex flex-row border-black border">
           <Square val={board[0]} chooseSquare={()=>{chooseSquare(0)}} />
           <Square val={board[1]} chooseSquare={()=>{chooseSquare(1)}} />
           <Square val={board[2]} chooseSquare={()=>{chooseSquare(2)}} />
@@ -97,7 +97,7 @@ function App() {
           <Square val={board[4]} chooseSquare={()=>{chooseSquare(4)}} />
           <Square val={board[5]} chooseSquare={()=>{chooseSquare(5)}} />
         </div>
-        <div className="row">
+        <div className="flex-[33%] flex flex-row border-black border">
           <Square val={board[6]} chooseSquare={()=>{chooseSquare(6)}} />
           <Square val={board[7]} chooseSquare={()=>{chooseSquare(7)}} />
           <Square val={board[8]} chooseSquare={()=>{chooseSquare(8)}} />
