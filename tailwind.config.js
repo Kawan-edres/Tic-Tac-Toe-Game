@@ -1,8 +1,18 @@
 module.exports = {
-    content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}"],
 
   theme: {
-    extend: {},
+    fontFamily: {
+      'sans': 'Helvetica, Arial, sans-serif',
+    },
+    extend: {
+      screens: {
+        short: { raw: "(max-width: 640px)" },
+
+        average: { raw: "(max-height: 700px)" },
+        // => @media (min-height: 800px) { ... }
+      },
+    },
   },
   plugins: [],
-}
+};

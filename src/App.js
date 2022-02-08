@@ -84,9 +84,17 @@ function App() {
 
   }
   return (
-    <div className="w-full h-screen  flex justify-center items-center">
-      <div className="h-[35rem] w-[35rem] bg-teal-500 border-2 border-black flex flex-col">
+    
+
+    <div className="w-full h-screen  flex justify-center items-center flex-col ">
+
+          <h1 className="text-[5rem] font-sans italic short:text-[3rem]">Tic Tac Toe Game</h1>
+
+          <div>
+          <div className="h-[35rem] w-[35rem] short:h-[23rem] short:w-[23rem] bg-teal-500 border-2 border-black flex flex-col">
+      
         <div className="flex-[33%] flex flex-row border-black border">
+        
           <Square val={board[0]} chooseSquare={()=>{chooseSquare(0)}} />
           <Square val={board[1]} chooseSquare={()=>{chooseSquare(1)}} />
           <Square val={board[2]} chooseSquare={()=>{chooseSquare(2)}} />
@@ -104,7 +112,12 @@ function App() {
 
         </div>
       </div>
+
+          </div>
+   
+      
     </div>
+   
   );
 }
 
