@@ -3,11 +3,11 @@ module.exports = {
 
   theme: {
     fontFamily: {
-      'sans': 'Helvetica, Arial, sans-serif',
+      sans: "Helvetica, Arial, sans-serif",
     },
     extend: {
       screens: {
-        short: { raw: "(max-width: 640px)" },
+        short: { raw: "(max-width: 682px)" },
 
         average: { raw: "(max-height: 700px)" },
         // => @media (min-height: 800px) { ... }
