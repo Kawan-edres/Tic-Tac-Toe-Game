@@ -84,15 +84,15 @@ function App() {
 
   }
   return (
-    <div className="App bg-blue-800">
-      <div className="board">
+    <div className="w-full h-full flex justify-center items-center">
+      <div className="h-[35rem] w-[35rem] bg-black border-2 border-black flex flex-col">
         <div className="row">
           <Square val={board[0]} chooseSquare={()=>{chooseSquare(0)}} />
           <Square val={board[1]} chooseSquare={()=>{chooseSquare(1)}} />
           <Square val={board[2]} chooseSquare={()=>{chooseSquare(2)}} />
 
         </div>
-        <div className="row">
+        <div className="flex-[33%] flex flex-row border-black border">
           <Square val={board[3]} chooseSquare={()=>{chooseSquare(3)}} />
           <Square val={board[4]} chooseSquare={()=>{chooseSquare(4)}} />
           <Square val={board[5]} chooseSquare={()=>{chooseSquare(5)}} />
