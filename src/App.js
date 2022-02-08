@@ -88,10 +88,10 @@ function App() {
 
     <div className="w-full h-screen  flex justify-center items-center flex-col ">
 
-          <h1 className="text-[5rem] font-sans italic short:text-[3rem]">Tic Tac Toe Game</h1>
+          <h1 className="text-[5rem] font-sans italic short:text-[3rem] shortt:text-[1.9rem]">Tic Tac Toe Game</h1>
 
           <div>
-          <div className="h-[35rem] w-[35rem] short:h-[23rem] short:w-[23rem] bg-teal-500 border-2 border-black flex flex-col">
+          <div className="h-[35rem] w-[35rem] short:h-[23rem] short:w-[23rem] shortt:h-[16rem] shortt:w-[16rem] bg-teal-500 border-2 border-black flex flex-col">
       
         <div className="flex-[33%] flex flex-row border-black border">
         
