@@ -24,7 +24,7 @@ function App() {
 
   useEffect(()=>{
     if(result.state!="none"){
-      (`Game Finished: ${result.winner}`+" Won The Game")
+      alert(`Game Finished: ${result.winner}`+" Won The Game")
       restartGame();
 
     }
